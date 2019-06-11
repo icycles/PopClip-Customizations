@@ -7,7 +7,7 @@
 	<key>Extension Description</key>
 	<string>Search Apple Discussions Communities.</string>
 	<key>Extension Identifier</key>
-	<string>com.icycles.popclip.extension.discussionssearch</string>
+	<string>com.icycles.popclip.extension.discussions</string>
 	<key>Actions</key>
 	<array>
 		<dict>

@@ -7,7 +7,7 @@
 	<key>Extension Description</key>
 	<string>Search Apple Developer.</string>
 	<key>Extension Identifier</key>
-	<string>com.icycles.popclip.extension.developersearch</string>
+	<string>com.icycles.popclip.extension.developer</string>
 	<key>Actions</key>
 	<array>
 		<dict>
