@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>Title Case</string>
+	<key>Extension Description</key>
+	<string>Format Title Case.</string>
+	<key>Extension Identifier</key>
+	<string>com.icycles.popclip.extension.titlecase</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>titlecase.png</string>
+			<key>Shell Script File</key>
+			<string>titlecase.sh</string>
+			<key>Title</key>
+			<string>Title Case</string>
+		</dict>
+	</array>
+</dict>
+</plist>

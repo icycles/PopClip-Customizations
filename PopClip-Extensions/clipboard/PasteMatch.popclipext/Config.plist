@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>Paste + Match︎</string>
+	<key>Extension Description</key>
+	<string>Paste and Match Style.</string>
+	<key>Extension Identifier</key>
+	<string>com.icycles.popclip.extension.paste-match</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Paste + Match</string>
+			<key>Image File</key>
+			<string>pastematch.png</string>
+			<key>Before</key>
+			<string>paste-plain</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.*$</string>
+			<key>Shell Script File</key>
+			<string>null.sh</string>
+		</dict>
+	</array>
+	<key>Requirements</key>
+	<array>
+		<string>paste</string>
+		<string>formatting</string>
+		<string>formatted-text</string>
+	</array>
+</dict>
+</plist>
