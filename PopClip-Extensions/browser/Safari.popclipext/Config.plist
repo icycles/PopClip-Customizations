@@ -7,7 +7,7 @@
 	<key>Extension Description</key>
 	<string>Open Link in Safari.</string>
 	<key>Extension Identifier</key>
-	<string>com.clockcycles.popclip.extension.safari</string>
+	<string>com.icycles.popclip.extension.safari</string>
 	<key>Actions</key>
 	<array>
 		<dict>

@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>Extension Name</key>
-	<string>AppStore</string>
+	<string>Support</string>
 	<key>Extension Description</key>
-	<string>Search App Store.</string>
+	<string>Search Apple Support.</string>
 	<key>Extension Identifier</key>
-	<string>com.icycles.popclip.extension.appstore</string>
+	<string>com.icycles.popclip.extension.support</string>
 	<key>Actions</key>
 	<array>
 		<dict>
 			<key>Image File</key>
-			<string>appstore-o.png</string>
+			<string>support.png</string>
 			<key>Regular Expression</key>
 			<string>(?s)^.{1,200}$</string>
 			<key>Title</key>
-			<string>App Store</string>
+			<string>Support</string>
 			<key>URL</key>
-			<string>macappstore://itunes.apple.com/search?q={popclip text}</string>
+			<string>https://support.apple.com/kb/index?page=search&amp;currentPage=1&amp;includeArchived=true&amp;locale=en_US&amp;q={popclip text}</string>
 		</dict>
 	</array>
 </dict>
