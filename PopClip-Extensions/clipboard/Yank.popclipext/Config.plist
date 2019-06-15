@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>Yank</string>
+	<key>Extension Description</key>
+	<string>Yank.</string>
+	<key>Extension Identifier</key>
+	<string>com.icycles.popclip.extension.yank</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Yank</string>
+			<key>Image File</key>
+			<string>yank.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.*$</string>
+			<key>Before</key>
+			<string>paste</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyChar</key>
+				<string>Y</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>Requirements</key>
+	<array>
+		<string>yank</string>
+	</array>
+</dict>
+</plist>
