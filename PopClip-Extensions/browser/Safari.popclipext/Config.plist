@@ -27,5 +27,18 @@
 	<array>
 		<string>com.apple.Safari</string>
 	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>iCycles Extensions &amp; App Customizations: Jay Castle</string>
+			<key>Link</key>
+			<string>mailto:jay@icycl.es</string>
+			<key>Name</key>
+			<string>PopClip Package Templates: Nick Moore et al.</string>
+			<key>Link</key>
+			<string>https://github.com/pilotmoon/PopClip-Extensions#the-popclipext-package</string>
+		</dict>
+	</array>
 </dict>
 </plist>

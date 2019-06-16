@@ -15,10 +15,6 @@
 			<string>Yank</string>
 			<key>Image File</key>
 			<string>yank.png</string>
-			<key>Regular Expression</key>
-			<string>(?s)^.*$</string>
-			<key>Before</key>
-			<string>paste</string>
 			<key>Key Combo</key>
 			<dict>
 				<key>keyChar</key>
@@ -28,9 +24,18 @@
 			</dict>
 		</dict>
 	</array>
-	<key>Requirements</key>
+	<key>Credits</key>
 	<array>
-		<string>yank</string>
+		<dict>
+			<key>Name</key>
+			<string>iCycles Extensions &amp; App Customizations: Jay Castle</string>
+			<key>Link</key>
+			<string>mailto:jay@icycl.es</string>
+			<key>Name</key>
+			<string>PopClip Package Templates: Nick Moore et al.</string>
+			<key>Link</key>
+			<string>https://github.com/pilotmoon/PopClip-Extensions#the-popclipext-package</string>
+		</dict>
 	</array>
 </dict>
 </plist>

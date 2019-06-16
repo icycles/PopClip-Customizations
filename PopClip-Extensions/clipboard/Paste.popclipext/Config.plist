@@ -15,22 +15,27 @@
 			<string>Paste</string>
 			<key>Image File</key>
 			<string>paste.png</string>
-			<key>Regular Expression</key>
-			<string>(?s)^.*$</string>
-			<key>Before</key>
-			<string>paste</string>
 			<key>Key Combo</key>
 			<dict>
-				<key>keyCode</key>
-				<integer>202</integer>
+				<key>keyChar</key>
+				<string>V</string>
 				<key>modifiers</key>
-				<integer>0</integer>
+				<integer>1048576</integer>
 			</dict>
 		</dict>
 	</array>
-	<key>Requirements</key>
+	<key>Credits</key>
 	<array>
-		<string>paste</string>
+		<dict>
+			<key>Name</key>
+			<string>iCycles Extensions &amp; App Customizations: Jay Castle</string>
+			<key>Link</key>
+			<string>mailto:jay@icycl.es</string>
+			<key>Name</key>
+			<string>PopClip Package Templates: Nick Moore et al.</string>
+			<key>Link</key>
+			<string>https://github.com/pilotmoon/PopClip-Extensions#the-popclipext-package</string>
+		</dict>
 	</array>
 </dict>
 </plist>

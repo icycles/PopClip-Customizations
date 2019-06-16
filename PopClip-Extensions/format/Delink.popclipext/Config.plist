@@ -15,38 +15,26 @@
 			<string>Delink</string>
 			<key>Image File</key>
 			<string>delink.png</string>
-			<key>Regular Expression</key>
-			<string>(?s)^$</string>
-			<key>Stay Visible</key>
-			<true/>
-			<key>Requirements</key>
-			<array>
-				<string>paste</string>
-			</array>
 			<key>Key Combo</key>
 			<dict>
-				<key>keyCode</key>
-				<integer>40</integer>
+				<key>keyChar</key>
+				<string>K</string>
 				<key>modifiers</key>
 				<integer>1179648</integer>
 			</dict>
 		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
 		<dict>
-			<key>Requirements</key>
-			<array>
-				<string>cut</string>
-			</array>
-			<key>Title</key>
-			<string>Delink</string>
-			<key>Image File</key>
-			<string>delink.png</string>
-			<key>Key Combo</key>
-			<dict>
-				<key>keyCode</key>
-				<integer>40</integer>
-				<key>modifiers</key>
-				<integer>1179648</integer>
-			</dict>
+			<key>Name</key>
+			<string>iCycles Extensions &amp; App Customizations: Jay Castle</string>
+			<key>Link</key>
+			<string>mailto:jay@icycl.es</string>
+			<key>Name</key>
+			<string>PopClip Package Templates: Nick Moore et al.</string>
+			<key>Link</key>
+			<string>https://github.com/pilotmoon/PopClip-Extensions#the-popclipext-package</string>
 		</dict>
 	</array>
 </dict>
