@@ -3,26 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>Extension Name</key>
-	<string>Link</string>
+	<string>Check</string>
 	<key>Extension Description</key>
-	<string>Add/Edit Link</string>
+	<string>Format Check.</string>
 	<key>Extension Identifier</key>
-	<string>com.icycles.popclip.extension.link</string>
+	<string>com.icycles.popclip.extension.check</string>
 	<key>Actions</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Link</string>
+			<string>Check</string>
 			<key>Image File</key>
-			<string>link.png</string>
+			<string>check.png</string>
 			<key>Key Combo</key>
 			<dict>
 				<key>keyChar</key>
-				<string>K</string>
+				<string>1</string>
 				<key>modifiers</key>
-				<integer>1048576</integer>
+				<integer>1179648</integer>
 			</dict>
 		</dict>
+	</array>
+	<key>Requirements</key>
+	<array>
+		<string>formatting</string>
 	</array>
 	<key>Credits</key>
 	<array>
