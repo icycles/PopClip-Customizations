@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>Strikethrough</string>
+	<key>Extension Description</key>
+	<string>Format Strikethrough.</string>
+	<key>Extension Identifier</key>
+	<string>com.icycles.popclip.extension.strikethrough</string>
+	<key>Extension Image File</key>
+	<string>strikethrough.png</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Strikethrough</string>
+			<key>Image File</key>
+			<string>strikethrough.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyChar</key>
+				<string>S</string>
+				<key>modifiers</key>
+				<integer>393216</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>Requirements</key>
+	<array>
+		<string>cut</string>
+		<string>formatting</string>
+	</array>
+	<key>Stay Visible</key>
+	<true/>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>iCycles Extensions &amp; App Customizations: Jay Castle ©18</string>
+			<key>Link</key>
+			<string>mailto:jay@icycl.es</string>
+			<key>Name</key>
+			<string>PopClip Package Template(s): Nick Moore et al.</string>
+			<key>Link</key>
+			<string>https://github.com/pilotmoon/PopClip-Extensions#the-popclipext-package</string>
+		</dict>
+	</array>
+</dict>
+</plist>
