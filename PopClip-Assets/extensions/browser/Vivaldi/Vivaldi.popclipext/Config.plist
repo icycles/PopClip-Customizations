@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>Vivaldi</string>
+	<key>Extension Description</key>
+	<string>Open Link in Vivaldi.</string>
+	<key>Extension Identifier</key>
+	<string>com.icycles.popclip.extension.vivaldi</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Vivaldi</string>
+			<key>Image File</key>
+			<string>vivaldi.png</string>
+			<key>Shell Script File</key>
+			<string>vivaldi.sh</string>
+			<key>Requirements</key>
+			<array>
+				<string>httpurls</string>
+			</array>
+		</dict>
+	</array>
+	<key>Blocked Apps</key>
+	<array>
+		<string>com.apple.Vivaldi</string>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>iCycles Extensions &amp; App Customizations: Jay Castle ©18</string>
+			<key>Link</key>
+			<string>mailto:jay@icycl.es</string>
+			<key>Name</key>
+			<string>PopClip Package Templates: Nick Moore et al.</string>
+			<key>Link</key>
+			<string>https://github.com/pilotmoon/PopClip-Extensions#the-popclipext-package</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>Brave⤷</string>
+	<key>Extension Description</key>
+	<string>Open Link in Brave.</string>
+	<key>Extension Identifier</key>
+	<string>com.clockcycles.popclip.extension.brave</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>brave.png</string>
+			<key>Requirements</key>
+			<array>
+				<string>httpurls</string>
+			</array>
+			<key>Shell Script File</key>
+			<string>brave.sh</string>
+			<key>Title</key>
+			<string>Brave⤷</string>
+		</dict>
+	</array>
+	<key>Blocked Apps</key>
+	<array>
+		<string>com.brave.Browser</string>
+	</array>
+</dict>
+</plist>

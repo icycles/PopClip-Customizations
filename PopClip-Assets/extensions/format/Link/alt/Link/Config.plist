@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>Link</string>
+	<key>Extension Description</key>
+	<string>Add/Edit Link</string>
+	<key>Extension Identifier</key>
+	<string>com.clockcycles.popclip.extension.link</string>
+	<key>Extension Image File</key>
+	<string>link.png</string>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Regular Expression</key>
+			<string>(?s)^$</string>
+			<key>Stay Visible</key>
+			<true/>
+			<key>Requirements</key>
+			<array>
+				<string>paste</string>
+			</array>
+			<key>Title</key>
+			<string>Link</string>
+			<key>Image File</key>
+			<string>link.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyCode</key>
+				<integer>40</integer>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>Requirements</key>
+			<array>
+				<string>cut</string>
+			</array>
+			<key>Title</key>
+			<string>Link</string>
+			<key>Image File</key>
+			<string>link.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyCode</key>
+				<integer>40</integer>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

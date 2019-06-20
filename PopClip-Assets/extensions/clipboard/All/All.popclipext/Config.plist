@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>All</string>
+	<key>Extension Description</key>
+	<string>Select All.</string>
+	<key>Extension Identifier</key>
+	<string>com.icycles.popclip.extension.all</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>All</string>
+			<key>Image File</key>
+			<string>all.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyChar</key>
+				<string>A</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+			</dict>
+			<key>After</key>
+			<string>copy</string>
+		</dict>
+	</array>
+</dict>
+</plist>

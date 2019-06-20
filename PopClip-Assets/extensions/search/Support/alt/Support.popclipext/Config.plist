@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>Developer</string>
+	<key>Extension Description</key>
+	<string>Search Apple Developer.</string>
+	<key>Extension Identifier</key>
+	<string>com.clockcycles.popclip.extension.developersearch</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>apple.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,200}$</string>
+			<key>Title</key>
+			<string>Developer</string>
+			<key>URL</key>
+			<string>https://developer.apple.com/search/?q={popclip text}</string>
+		</dict>
+	</array>
+</dict>
+</plist>

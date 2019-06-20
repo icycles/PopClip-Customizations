@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>AppStore</string>
+	<key>Extension Description</key>
+	<string>Search App Store.</string>
+	<key>Extension Identifier</key>
+	<string>com.icycles.popclip.extension.appstore</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>appstore.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,200}$</string>
+			<key>Title</key>
+			<string>App Store</string>
+			<key>URL</key>
+			<string>macappstore://itunes.apple.com/search?q={popclip text}</string>
+		</dict>
+	</array>
+</dict>
+</plist>

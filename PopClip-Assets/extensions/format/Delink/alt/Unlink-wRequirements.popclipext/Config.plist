@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Name</key>
+	<string>Unlink</string>
+	<key>Extension Description</key>
+	<string>Remove Link</string>
+	<key>Extension Identifier</key>
+	<string>com.systemfiles.popclip.extension.unlink</string>
+	<key>Extension Image File</key>
+	<string>unlink.png</string>
+	<key>Requirements</key>
+	<array>
+		<string>formatting</string>
+		<string>httpurl</string>
+		<string>httpurls</string>
+		<string>email</string>
+	</array>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>unlink.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyChar</key>
+				<string>K</string>
+				<key>modifiers</key>
+				<integer>1179648</integer>
+			</dict>
+			<key>Title</key>
+			<string>Remove Link</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>Firefox</string>
+	<key>Extension Description</key>
+	<string>Open in Firefox.</string>
+	<key>Extension Identifier</key>
+	<string>com.icycles.popclip.extension.firefox</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Firefox︎</string>
+			<key>Image File</key>
+			<string>firefox.png</string>
+			<key>Shell Script File</key>
+			<string>firefox.sh</string>
+			<key>Requirements</key>
+			<array>
+				<string>httpurls</string>
+			</array>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Mozilla Firefox</string>
+			<key>Link</key>
+			<string>https://getfirefox.com/</string>
+			<key>Bundle Identifier</key>
+			<string>org.mozilla.firefox</string>
+		</dict>
+	</array>
+	<key>Blocked Apps</key>
+	<array>
+		<string>org.mozilla.firefox</string>
+	</array>
+</dict>
+</plist>
