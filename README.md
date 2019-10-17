@@ -1,4 +1,5 @@
-# iCycles / PopClip / README.md
-iCycles: PopClip Extensions &amp; Customizations
+# iCycles
+PopClip Extensions &amp; Customizations by iCycles
+→ PayPal.me/iCycles
 
 © 2019
